@@ -1,0 +1,205 @@
+div.newspublisher {
+    margin:0;
+    font-family: arial, sans-serif;
+    padding: 2em 10em 4em 10em;
+    background-color:#eeeeee;
+}
+/* keeps Tiny toolbar from getting messed up */
+table {
+ margin: 0 !important;
+ padding: 0 !important;
+}
+div.newspublisher form {
+    margin: 0;
+    padding:20px 0 10px 0;
+}
+textarea#np-content {
+    width:95%;
+    height: 300px;
+}
+
+textarea#np-introtext {
+    width: 95%;
+    height: 100px;
+}
+
+div.newspublisher label.fieldlabel {
+    width: 10em;
+    text-align: left;
+    margin: 12px 5px 3px 0;
+    padding:0;
+    display: block;
+    font-weight: bold;
+}
+
+div.np-date input {
+        width:10em !important;
+    }
+
+
+div.np-date-hints {
+    margin:0;
+    padding:0;
+}
+span.np-date-hint {
+    margin: 1px 0 3px 0 !important;
+    padding: 0;
+}
+span.np-time-hint {
+    margin: 1px 120px 3px 110px !important;
+    padding: 0;
+}
+
+div.newspublisher textarea.textarea {
+    font-family: arial, sans-serif;
+    width:95%;
+    height:10em;
+    display:block;
+}
+div.newspublisher textarea.textareamini {
+    font-family: arial, sans-serif;
+    width:55%;
+    height:5em;
+    display:block;
+}
+
+div.newspublisher span.buttons {
+    display:block;
+}
+/* you can size or style a particular resource field or TV
+   by using its name like the examples below.
+   Note that this doesn't work with richtext fields. They can
+   only be sized with the tinywidth and tinyheight properties
+*/
+/*
+input#MyTVName {
+    width:10em;
+    height:5em;
+}
+
+input#createdby {
+  width:2em;
+  color:red;
+  background-color:gray;
+}
+*/
+
+/* Whole 'elements' (representing a single field/TV) of the form 
+   can be styled as follows:
+*/
+/*
+div#np-image-container#MyImage {
+    padding: 10px;
+    border: 1px solid silver;
+    margin: 10px 0;
+    width: 40em;
+}
+
+fieldset#checkbox {
+    display: inline-block;
+    margin: 10px 30px 0 0;
+    vertical-align: middle;
+}
+*/
+
+div.newspublisher span.option {
+    display:block;
+}
+div.newspublisher legend {
+   font-weight: bold;
+   padding:0 6px 0 6px;
+}
+div.newspublisher input {
+    font-family: arial, sans-serif;
+    width:30em;
+    display:inline;
+}
+
+div.newspublisher p.error {
+    font-weight: bold;
+    color: red;
+}
+
+span.errormessage {
+    color:red;
+    font-weight: bold;
+    display:block;
+    margin:5px 0 5px 0;
+    padding:0;
+}
+span.fielderrormessage {
+    color:red;
+    font-weight: bold;
+    display:block;
+    margin:20px 0 0 0;
+    padding:0;
+}
+div.newspublisher input.submit {
+    display:inline;
+    margin: 30px;
+    padding:0;
+    width:8em;
+}
+div.newspublisher input.int {
+    width:6em;
+}
+input#np-id {
+    background-color:#dcdcdc;
+    color:gray;
+    width:4em;
+
+}
+div.newspublisher input.cancel {
+    display:inline;
+    margin: 30px;
+    padding:0;
+    width:8em;
+}
+div.newspublisher input.checkbox {
+    width:2em;
+}
+div.newspublisher input.radio {
+    width:2em;
+}
+
+div.newspublisher fieldset {
+     display: block;
+    padding:5px 5px 10px 10px;
+    margin:10px 0 0 0;
+    background-color:white;
+}
+div.newspublisher fieldset p {
+  margin:0;
+  padding: 0;
+}
+div.newspublisher fieldset select {
+  width:10em;
+  margin:0;
+  padding: 0;
+}
+div.newspublisher fieldset option {
+  margin:0;
+  padding: 0;
+}
+fieldset.np-radio {
+   width:10em;
+}
+fieldset.np-checkbox {
+   width:10em;
+}
+fieldset.np-listbox {
+   width:10em;
+}
+fieldset.np-listbox-multiple {
+   width:10em;
+}
+
+fieldset.np-text {
+   width:10em;
+}
+fieldset.np-textbox {
+   width:10em;
+}
+fieldset.np-email {
+   width:10em;
+}

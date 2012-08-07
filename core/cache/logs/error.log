@@ -1,0 +1,109 @@
+[2012-06-29 22:51:57] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 22:51:57] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 22:51:57] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 22:52:00] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 22:52:00] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 22:52:00] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:25:28] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:25:28] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:25:28] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:25:31] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:25:31] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:25:31] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:26:15] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:26:15] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:26:15] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:26:18] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:26:18] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:26:18] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:26:39] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:26:39] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:26:39] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:26:42] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:26:42] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:26:42] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:26:56] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:26:56] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:26:56] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:26:59] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:26:59] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:26:59] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:28:08] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:28:08] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:28:08] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:28:11] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:28:11] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:28:11] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:28:51] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:28:51] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:28:51] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:28:54] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:28:54] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:28:54] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:29:14] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:29:14] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:29:14] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:29:17] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:29:17] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:29:17] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:29:47] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:29:47] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:29:47] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:29:51] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:29:51] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:29:51] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:30:04] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:30:04] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:30:04] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:30:07] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:30:07] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:30:07] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:30:20] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:30:20] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:30:20] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:30:23] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:30:23] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:30:23] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:30:52] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:30:52] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:30:52] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:30:55] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:30:55] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:30:55] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:31:22] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:31:22] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:31:22] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:31:25] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:31:25] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:31:25] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:31:39] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:31:39] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:31:39] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:31:42] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:31:42] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:31:42] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:32:40] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:32:40] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:32:40] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:32:43] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:32:43] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:32:43] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:33:10] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:33:10] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:33:10] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:33:13] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:33:13] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:33:13] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:40:24] (ERROR @ /manager/index.php) Could not cache system settings.
+[2012-06-29 23:41:02] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:41:02] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:41:02] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:41:06] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:41:06] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:41:06] (ERROR @ /connectors/workspace/packages.php) Could not transfer package taglister-1.1.7-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:41:09] (ERROR @ /connectors/workspace/packages.php) Could not open file for reading: getpage-1.2.2-pl.transport.zip?revolution_version=Revolution-2.2.2-pl
+[2012-06-29 23:41:09] (ERROR @ /connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-06-29 23:41:09] (ERROR @ /connectors/workspace/packages.php) Could not transfer package getpage-1.2.2-pl.transport.zip to /home/content/40/8758040/html/sites/balkanmap.info/core/packages/.
+[2012-06-29 23:47:57] (ERROR @ /connectors/system/settings.php) Error caching action map mgr/actions
+[2012-06-29 23:49:25] (ERROR @ /assets/components/bigbrother/connector.php) Error caching action map mgr/actions
+[2012-07-02 13:33:16] (ERROR @ /connectors/element/propertyset.php) Error caching action map mgr/actions

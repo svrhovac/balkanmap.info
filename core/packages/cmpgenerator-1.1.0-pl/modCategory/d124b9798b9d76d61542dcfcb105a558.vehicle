@@ -1,0 +1,44 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'namespace' => 'cmpgenerator',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"cmpgenerator-1.1.0-pl\\/modCategory\\/d124b9798b9d76d61542dcfcb105a558.install.script.resolver","type":"php","name":"install.script"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"cmpgenerator-1.1.0-pl\\/modCategory\\/d124b9798b9d76d61542dcfcb105a558\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"cmpgenerator"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"cmpgenerator-1.1.0-pl\\/modCategory\\/d124b9798b9d76d61542dcfcb105a558\\/2\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"cmpgenerator"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"cmpgenerator-1.1.0-pl\\/modCategory\\/d124b9798b9d76d61542dcfcb105a558.tables.resolver.resolver","type":"php","name":"tables.resolver"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"cmpgenerator-1.1.0-pl\\/modCategory\\/d124b9798b9d76d61542dcfcb105a558.setupoptions.resolver.resolver","type":"php","name":"setupoptions.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cae6d2a788bb56172b0c3e45fb023b67',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'd124b9798b9d76d61542dcfcb105a558',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"CMPGenerator"}',
+);

@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'db3c5c62e21a327ad860c69845e6a233',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => 'da270b010e851f1d0e58ffaca2eeb60d',
+  'native_key' => 54,
+  'object' => '{"id":54,"namespace":"core","controller":"security\\/user\\/create","haslayout":1,"lang_topics":"user,setting,access","assets":"","help_url":"Users"}',
+);

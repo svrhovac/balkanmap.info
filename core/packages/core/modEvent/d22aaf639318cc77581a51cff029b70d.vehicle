@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '05bd9290b9521e65ba65d34d86295df5',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'd22aaf639318cc77581a51cff029b70d',
+  'native_key' => 'OnParseDocument',
+  'object' => '{"name":"OnParseDocument","service":5,"groupname":"System"}',
+);

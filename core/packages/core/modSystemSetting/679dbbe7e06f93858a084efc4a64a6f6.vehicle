@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '757cad5c7d2e8ae10c63e8214b840d16',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '679dbbe7e06f93858a084efc4a64a6f6',
+  'native_key' => 'manager_theme',
+  'object' => '{"key":"manager_theme","value":"default","xtype":"textfield","namespace":"core","area":"manager","editedon":null}',
+);

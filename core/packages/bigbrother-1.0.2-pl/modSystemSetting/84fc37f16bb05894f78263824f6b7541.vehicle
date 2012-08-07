@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'bigbrother',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3ec8988787a252e5e4b7755003051943',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '84fc37f16bb05894f78263824f6b7541',
+  'native_key' => 'bigbrother.cache_timeout',
+  'object' => '{"key":"bigbrother.cache_timeout","value":300,"xtype":"textfield","namespace":"bigbrother","area":"Google Analytics for MODx Revolution","editedon":null}',
+);

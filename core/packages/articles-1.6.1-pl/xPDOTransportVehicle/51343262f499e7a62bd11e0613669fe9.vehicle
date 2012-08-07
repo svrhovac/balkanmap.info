@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'articles-1.6.1-pl/xPDOTransportVehicle/51343262f499e7a62bd11e0613669fe9/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'getresources-1.4.2-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'articles',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"articles-1.6.1-pl\\/xPDOTransportVehicle\\/51343262f499e7a62bd11e0613669fe9.resolve.getresources.resolver","type":"php","name":"resolve.getresources"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"articles-1.6.1-pl\\/xPDOTransportVehicle\\/51343262f499e7a62bd11e0613669fe9.validate.getresources.validator","type":"php","name":"validate.getresources"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'b26f3ec57132f76148bdf397b0a21efc',
+  'package' => '',
+  'signature' => '51343262f499e7a62bd11e0613669fe9',
+  'native_key' => 'b26f3ec57132f76148bdf397b0a21efc',
+);

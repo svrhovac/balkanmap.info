@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="ulogin" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" phpdoc-package="ulogin" phpdoc-subpackage="model">
+    <object class="uLoginUser" table="ulogin_user" extends="xPDOSimpleObject">
+        <field key="user_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" default="0" />
+        <field key="identity" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>
+    </object>
+</model>

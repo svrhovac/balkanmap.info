@@ -1,0 +1,19 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'namespace' => 'bigbrother',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5ef8109919ba7bb2252a27e2698100bc',
+  'package' => 'modx',
+  'class' => 'modDashboardWidget',
+  'signature' => '9405b5a4922fff07b09ef34c7c5c2fb8',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"bigbrother.name","description":"bigbrother.desc","type":"file","content":"[[++core_path]]components\\/bigbrother\\/controllers\\/widget.class.php","namespace":"bigbrother","lexicon":"bigbrother:dashboard","size":"full","name_trans":"Google Analytics","description_trans":"Big Brother Dashboard Description"}',
+);

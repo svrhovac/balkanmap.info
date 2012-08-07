@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'articles-1.6.1-pl/xPDOTransportVehicle/526d79c147e714ba887eeaa6bff4685a/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'archivist-1.2.3-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'articles',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"articles-1.6.1-pl\\/xPDOTransportVehicle\\/526d79c147e714ba887eeaa6bff4685a.resolve.archivist.resolver","type":"php","name":"resolve.archivist"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"articles-1.6.1-pl\\/xPDOTransportVehicle\\/526d79c147e714ba887eeaa6bff4685a.validate.archivist.validator","type":"php","name":"validate.archivist"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'b37efc2dbedb3c9af20fd8a5108427e3',
+  'package' => '',
+  'signature' => '526d79c147e714ba887eeaa6bff4685a',
+  'native_key' => 'b37efc2dbedb3c9af20fd8a5108427e3',
+);

@@ -1,0 +1,5 @@
+Extra: Analytics Dashboard widget
+====================================
+- Vertical tabs
+- Added Internel search
+- Ability to hide tabs

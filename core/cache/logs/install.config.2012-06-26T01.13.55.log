@@ -1,0 +1,26 @@
+[2012-06-26 01:14:12] (ERROR @ /setup/index.php) xPDOObject - Called set() with an invalid field name: 0
+[2012-06-26 01:14:12] (ERROR @ /setup/index.php) xPDOObject - Called set() with an invalid field name: 1
+[2012-06-26 01:14:12] (ERROR @ /setup/index.php) xPDOObject - Called set() with an invalid field name: 0
+[2012-06-26 01:14:12] (ERROR @ /setup/index.php) xPDOObject - Called set() with an invalid field name: 1
+[2012-06-26 01:14:12] (ERROR @ /setup/index.php) xPDOVehicle resolver failed: type php (/home/content/40/8758040/html/sites/balkanmap.info/core/packages/core/modDashboardWidget/cb92c1cfe6e8781053ee721573ade602.resolve.dashboardwidgets.resolver)
+[2012-06-26 01:14:12] (ERROR @ /setup/index.php) Could not resolve vehicle for object of class modDashboardWidget; criteria: Array
+(
+    [name] => w_configcheck
+)
+
+[2012-06-26 01:14:14] (ERROR @ /setup/index.php) Error 42S22 executing statement: 
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'modAccessPermission.policy' in 'where clause'
+)
+
+[2012-06-26 01:14:14] (ERROR @ /setup/index.php) Error 42S22 executing statement: 
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'modAccessPermission.policy' in 'where clause'
+)
+

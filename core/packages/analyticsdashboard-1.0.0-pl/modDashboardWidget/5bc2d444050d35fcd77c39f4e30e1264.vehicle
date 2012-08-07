@@ -1,0 +1,19 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'namespace' => 'analytics',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e346f5c4ae4feaad4a7921cf8855cb69',
+  'package' => 'modx',
+  'class' => 'modDashboardWidget',
+  'signature' => '5bc2d444050d35fcd77c39f4e30e1264',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"analytics","description":"Google Analytics dashboard widget","type":"file","content":"[[++core_path]]components\\/analytics\\/elements\\/widget\\/widget.analytics.php","namespace":"analytics","lexicon":"analytics:default","size":"double","name_trans":"Google Analytics","description_trans":"Google Analytics dashboard widget"}',
+);

@@ -1,0 +1,2 @@
+<script src="http://ulogin.ru/js/ulogin.js"></script>
+<div id="[[+ul_id]]" x-ulogin-params="display=[[+display]]&fields=[[+fields]]&providers=[[+providers]]&hidden=[[+hidden]]&redirect_uri=[[+redirect]]&callback=[[+callback]]"></div>

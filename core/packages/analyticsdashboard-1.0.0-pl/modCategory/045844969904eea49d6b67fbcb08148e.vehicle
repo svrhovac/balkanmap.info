@@ -1,0 +1,29 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'namespace' => 'analytics',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"analyticsdashboard-1.0.0-pl\\/modCategory\\/045844969904eea49d6b67fbcb08148e\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"analytics"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"analyticsdashboard-1.0.0-pl\\/modCategory\\/045844969904eea49d6b67fbcb08148e\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"analytics"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a49c3e2ea4d7dd2540ac6229051ca277',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '045844969904eea49d6b67fbcb08148e',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"Analyticsdashboard"}',
+);

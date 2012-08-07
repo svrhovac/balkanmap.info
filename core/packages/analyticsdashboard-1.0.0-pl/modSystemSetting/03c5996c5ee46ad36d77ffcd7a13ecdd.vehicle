@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'analytics',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5f045283f530f3e89178ca990f9eb931',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '03c5996c5ee46ad36d77ffcd7a13ecdd',
+  'native_key' => 'analytics_cachingtime',
+  'object' => '{"key":"analytics_cachingtime","value":"3600","xtype":"textfield","namespace":"analytics","area":"","editedon":null}',
+);

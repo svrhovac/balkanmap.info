@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '14cffef804bf42199b100a9fceaa9a0c' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnPageNotFound","priority":0,"propertyset":0}',
+        'guid' => 'e787c9c873a94206583af46ce8340a38',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnPageNotFound',
+        ),
+        'signature' => 'a375494b761b23f99ec62ccc5de193ff',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'archivist',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '49566df0bcc1b6ccdd3df4e309e26000',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '5107a3a74d31089c6f76a629f2299d7d',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"ArchivistFurl","description":"Handles FURLs for Archivist.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * Archivist\\n *\\n * Copyright 2010-2011 by Shaun McCormick <shaun@modx.com>\\n *\\n * This file is part of Archivist, a simple archive navigation system for MODx\\n * Revolution.\\n *\\n * Archivist is free software; you can redistribute it and\\/or modify it under\\n * the terms of the GNU General Public License as published by the Free Software\\n * Foundation; either version 2 of the License, or (at your option) any later\\n * version.\\n *\\n * Archivist is distributed in the hope that it will be useful, but WITHOUT\\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS\\n * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more\\n * details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * Archivist; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package archivist\\n *\\/\\n\\/**\\n * @var modX $modx\\n * @package archivist\\n *\\/\\nif ($modx->event->name != \'OnPageNotFound\') return;\\n\\n$archiveIds = $modx->getOption(\'archivist.archive_ids\',null,\'\');\\nif (empty($archiveIds)) return;\\n$archiveIds = explode(\',\',$archiveIds);\\n\\n\\/* handle redirects *\\/\\n$search = $_SERVER[\'REQUEST_URI\'];\\n$base_url = $modx->getOption(\'base_url\');\\nif ($base_url != \'\\/\') {\\n    $search = str_replace($base_url,\'\',$search);\\n}\\n$search = trim($search, \'\\/\');\\n\\n\\/* get resource to redirect to *\\/\\n$resourceId = false;\\n$prefix = \'arc_\';\\nforeach ($archiveIds as $archive) {\\n    $archive = explode(\':\',$archive);\\n    $archiveId = $archive[0];\\n    $alias = array_search($archiveId,$modx->aliasMap);\\n    if ($alias && strpos($search,$alias) !== false) {\\n        $search = str_replace($alias,\'\',$search);\\n        $resourceId = $archiveId;\\n        if (isset($archive[1])) $prefix = $archive[1];\\n    }\\n}\\nif (!$resourceId) return;\\n\\n\\/* figure out archiving *\\/\\n$params = explode(\'\\/\', $search);\\nif (count($params) < 1) return;\\n\\n\\/* tag handling! *\\/\\nif ($params[0] == \'tags\') {\\n    $_GET[\'tag\'] = $params[1];\\n} else if ($params[0] == \'user\' || $params[0] == \'author\') {\\n    $_GET[$prefix.\'author\'] = $params[1];\\n} else {\\n    \\/* set Archivist parameters for date-based archives *\\/\\n    $_GET[$prefix.\'year\'] = $params[0];\\n    if (isset($params[1])) $_GET[$prefix.\'month\'] = $params[1];\\n    if (isset($params[2])) $_GET[$prefix.\'day\'] = $params[2];\\n}\\n\\n\\/* forward *\\/\\n$modx->sendForward($resourceId);\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * Archivist\\n *\\n * Copyright 2010-2011 by Shaun McCormick <shaun@modx.com>\\n *\\n * This file is part of Archivist, a simple archive navigation system for MODx\\n * Revolution.\\n *\\n * Archivist is free software; you can redistribute it and\\/or modify it under\\n * the terms of the GNU General Public License as published by the Free Software\\n * Foundation; either version 2 of the License, or (at your option) any later\\n * version.\\n *\\n * Archivist is distributed in the hope that it will be useful, but WITHOUT\\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS\\n * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more\\n * details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * Archivist; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package archivist\\n *\\/\\n\\/**\\n * @var modX $modx\\n * @package archivist\\n *\\/\\nif ($modx->event->name != \'OnPageNotFound\') return;\\n\\n$archiveIds = $modx->getOption(\'archivist.archive_ids\',null,\'\');\\nif (empty($archiveIds)) return;\\n$archiveIds = explode(\',\',$archiveIds);\\n\\n\\/* handle redirects *\\/\\n$search = $_SERVER[\'REQUEST_URI\'];\\n$base_url = $modx->getOption(\'base_url\');\\nif ($base_url != \'\\/\') {\\n    $search = str_replace($base_url,\'\',$search);\\n}\\n$search = trim($search, \'\\/\');\\n\\n\\/* get resource to redirect to *\\/\\n$resourceId = false;\\n$prefix = \'arc_\';\\nforeach ($archiveIds as $archive) {\\n    $archive = explode(\':\',$archive);\\n    $archiveId = $archive[0];\\n    $alias = array_search($archiveId,$modx->aliasMap);\\n    if ($alias && strpos($search,$alias) !== false) {\\n        $search = str_replace($alias,\'\',$search);\\n        $resourceId = $archiveId;\\n        if (isset($archive[1])) $prefix = $archive[1];\\n    }\\n}\\nif (!$resourceId) return;\\n\\n\\/* figure out archiving *\\/\\n$params = explode(\'\\/\', $search);\\nif (count($params) < 1) return;\\n\\n\\/* tag handling! *\\/\\nif ($params[0] == \'tags\') {\\n    $_GET[\'tag\'] = $params[1];\\n} else if ($params[0] == \'user\' || $params[0] == \'author\') {\\n    $_GET[$prefix.\'author\'] = $params[1];\\n} else {\\n    \\/* set Archivist parameters for date-based archives *\\/\\n    $_GET[$prefix.\'year\'] = $params[0];\\n    if (isset($params[1])) $_GET[$prefix.\'month\'] = $params[1];\\n    if (isset($params[2])) $_GET[$prefix.\'day\'] = $params[2];\\n}\\n\\n\\/* forward *\\/\\n$modx->sendForward($resourceId);\\nreturn;"}',
+);

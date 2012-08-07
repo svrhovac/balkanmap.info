@@ -1,0 +1,54 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'c818702e3582328cb169106c25207713' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":18,"event":"OnWebPagePrerender","priority":0,"propertyset":0}',
+        'guid' => '1f0b296b26a0acad50fd8c18053be8b9',
+        'native_key' => 
+        array (
+          0 => 18,
+          1 => 'OnWebPagePrerender',
+        ),
+        'signature' => 'b0be25a7ece5ad274516e005f44de883',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'autofiximagesize',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'db56180295bded3ded2668686715f62e',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'bf46535eb8923633ae1c190fd6bd2754',
+  'native_key' => 18,
+  'object' => '{"id":18,"source":1,"property_preprocess":0,"name":"AutoFixImageSize","description":"Fixes img elements with wrong width\\/height attributes. Uses phpThumbOf for generating correctly sized physical image files.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @name AutoFixImageSize\\n * @version 1.0.1 pl\\n * @author Gerrit van Aaken <gerrit@praegnanz.de> April 2011 \\u2013 January 2012\\n *\\n * @license GPLv2\\n *\\n * Fixes img elements with wrong width\\/height attributes. \\n * Uses phpThumbOf for generating correctly sized physical image files.\\n *\\n * Must be executed at \\"OnWebPagePrerender\\"\\n *\\/\\n\\n\\/\\/ get parsed document as string\\n$str = $modx->resource->_output;\\n\\n\\/\\/ get configuration from global object\\n$config = $modx->getConfig();\\n\\n\\/\\/ find all img elements with a src attribute\\npreg_match_all(\'|\\\\<img.*?src=[\\",\\\\\'](.*?)[\\",\\\\\'].*?[^>]+\\\\>|i\', $str, $filenames);\\n\\n\\/\\/ loop through all found img elements\\nforeach($filenames[1] as $i => $filename) {\\n\\n  $img_old = $filenames[0][$i];\\n  $allowcaching = false; \\/\\/ pessimistic\\n\\n  \\/\\/ is file already cached?\\n  if (strpos($filename,\\"?\\") == false || strpos($filename,\\"\\/phpthumb\\") == false) {\\n\\n    \\/\\/ check if external caching is allowed\\n    if (substr($filename,0,7) == \\"http:\\/\\/\\" || substr($filename,0,8) == \\"https:\\/\\/\\") {\\n      $pre = \\"\\";\\n      if ($config[\'phpthumb_nohotlink_enabled\']) {\\n        foreach (explode(\\",\\", $config[\'phpthumb_nohotlink_valid_domains\']) as $alldomain) {\\n          if ( strpos(strtolower($filename), strtolower(trim($alldomain))) != false) {\\n            $allowcaching = true;\\n          }\\n        } \\n      } else {\\n        $allowcaching = true;\\n      }\\n    } else {\\n      $pre = $config[\'base_path\'];\\n      $allowcaching = true;\\n    }\\n  }\\n  \\n  \\/\\/ do we have physical access to the file?\\n\\n$mypath = $pre.str_replace(\'%20\', \' \', $filename);\\n  if ($allowcaching && $dimensions = getimagesize($mypath, $info)) {\\n\\n    \\/\\/ find width and height attribut and save value\\n    preg_match_all(\'|width=[\\",\\\\\']([0-9]+?)[\\",\\\\\']|i\', $filenames[0][$i], $widths);\\n    if (isset($widths[1][0])) {\\n      $width = $widths[1][0];\\n    } else {\\n      $width = false;\\n    }\\n    preg_match_all(\'|height=[\\",\\\\\']([0-9]+?)[\\",\\\\\']|i\', $filenames[0][$i], $heights);\\n    if (isset($heights[1][0])) {\\n      $height = $heights[1][0];\\n    } else {\\n      $height = false;\\n    }\\n\\n    \\/\\/ if resizing needed...\\n    if (($width && $width != $dimensions[0]) || ($height && $height != $dimensions[1])) {\\n\\n      \\/\\/ prepare resizing metadata\\n      $filetype = strtolower(substr($filename, strrpos($filename,\\".\\")+1));\\n      $image = array();\\n      $image[\'input\'] = $filename;\\n      $image[\'options\'] = \\"f=\\".$filetype.\\"&h=\\".$height.\\"&w=\\".$width.\\"&iar=1\\"; \\n\\n      \\/\\/ perform physical resizing and caching via phpthumbof\\n      $cacheurl = $modx->runSnippet(\'phpthumbof\',$image);\\n\\n      \\/\\/ set freshly cached image file location into old src attribute\\n      $img_new = str_replace($filename, $cacheurl, $img_old);  \\n\\n      \\/\\/ replace old image element with new one on whole page content\\n      $str = str_replace($img_old, $img_new, $str);  \\n    }\\n  }\\n}\\n\\n\\/\\/ exchange the output string with the replaced one\\n$modx->resource->_output = $str;","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"assets\\/dev\\/autofiximagesize.php","content":"\\/**\\n * @name AutoFixImageSize\\n * @version 1.0.1 pl\\n * @author Gerrit van Aaken <gerrit@praegnanz.de> April 2011 \\u2013 January 2012\\n *\\n * @license GPLv2\\n *\\n * Fixes img elements with wrong width\\/height attributes. \\n * Uses phpThumbOf for generating correctly sized physical image files.\\n *\\n * Must be executed at \\"OnWebPagePrerender\\"\\n *\\/\\n\\n\\/\\/ get parsed document as string\\n$str = $modx->resource->_output;\\n\\n\\/\\/ get configuration from global object\\n$config = $modx->getConfig();\\n\\n\\/\\/ find all img elements with a src attribute\\npreg_match_all(\'|\\\\<img.*?src=[\\",\\\\\'](.*?)[\\",\\\\\'].*?[^>]+\\\\>|i\', $str, $filenames);\\n\\n\\/\\/ loop through all found img elements\\nforeach($filenames[1] as $i => $filename) {\\n\\n  $img_old = $filenames[0][$i];\\n  $allowcaching = false; \\/\\/ pessimistic\\n\\n  \\/\\/ is file already cached?\\n  if (strpos($filename,\\"?\\") == false || strpos($filename,\\"\\/phpthumb\\") == false) {\\n\\n    \\/\\/ check if external caching is allowed\\n    if (substr($filename,0,7) == \\"http:\\/\\/\\" || substr($filename,0,8) == \\"https:\\/\\/\\") {\\n      $pre = \\"\\";\\n      if ($config[\'phpthumb_nohotlink_enabled\']) {\\n        foreach (explode(\\",\\", $config[\'phpthumb_nohotlink_valid_domains\']) as $alldomain) {\\n          if ( strpos(strtolower($filename), strtolower(trim($alldomain))) != false) {\\n            $allowcaching = true;\\n          }\\n        } \\n      } else {\\n        $allowcaching = true;\\n      }\\n    } else {\\n      $pre = $config[\'base_path\'];\\n      $allowcaching = true;\\n    }\\n  }\\n  \\n  \\/\\/ do we have physical access to the file?\\n\\n$mypath = $pre.str_replace(\'%20\', \' \', $filename);\\n  if ($allowcaching && $dimensions = getimagesize($mypath, $info)) {\\n\\n    \\/\\/ find width and height attribut and save value\\n    preg_match_all(\'|width=[\\",\\\\\']([0-9]+?)[\\",\\\\\']|i\', $filenames[0][$i], $widths);\\n    if (isset($widths[1][0])) {\\n      $width = $widths[1][0];\\n    } else {\\n      $width = false;\\n    }\\n    preg_match_all(\'|height=[\\",\\\\\']([0-9]+?)[\\",\\\\\']|i\', $filenames[0][$i], $heights);\\n    if (isset($heights[1][0])) {\\n      $height = $heights[1][0];\\n    } else {\\n      $height = false;\\n    }\\n\\n    \\/\\/ if resizing needed...\\n    if (($width && $width != $dimensions[0]) || ($height && $height != $dimensions[1])) {\\n\\n      \\/\\/ prepare resizing metadata\\n      $filetype = strtolower(substr($filename, strrpos($filename,\\".\\")+1));\\n      $image = array();\\n      $image[\'input\'] = $filename;\\n      $image[\'options\'] = \\"f=\\".$filetype.\\"&h=\\".$height.\\"&w=\\".$width.\\"&iar=1\\"; \\n\\n      \\/\\/ perform physical resizing and caching via phpthumbof\\n      $cacheurl = $modx->runSnippet(\'phpthumbof\',$image);\\n\\n      \\/\\/ set freshly cached image file location into old src attribute\\n      $img_new = str_replace($filename, $cacheurl, $img_old);  \\n\\n      \\/\\/ replace old image element with new one on whole page content\\n      $str = str_replace($img_old, $img_new, $str);  \\n    }\\n  }\\n}\\n\\n\\/\\/ exchange the output string with the replaced one\\n$modx->resource->_output = $str;"}',
+);

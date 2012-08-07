@@ -1,0 +1,99 @@
+Changelog for NewsPublisher
+
+NewsPublisher 1.3.0-rc2
+-----------------------
+Fixed bug with name of TextArea Tpl chunk
+
+NewsPublisher 1.3.0-rc1
+-----------------------
+Better error messages
+Improved security
+Fixed critical bug with multiple RTE areas (thanks Markus)
+Added NewsPublisher policy and policy template
+Now handles both file and image TVs; preview for selected images
+Updates for MODX 2.2
+Implemented custom captions property
+Support for ResourceList TVs
+Added 'aliasdateformat' property for formatting the date suffix
+Removed hasimagetv, imagetvwidth, and imagetvheight properties
+Display some fields as lists (template, class_key, content_dispo)
+Datepicker TV: now supports date ranges, disabled dates and disabled days
+Internationalization of invalid date message
+Tweaks to template chunks to allow consistent CSS styling
+Only loads required Tpl chunks
+Many bug fixes, code simplification, and cleanup
+
+NewsPublisher 1.2.1-pl
+----------------------
+Fixed serious bug with TV values being lost for TVs not shown in form due to bug in resource update processor
+
+NewsPublisher 1.2.0-rc2
+-----------------------
+Fixed bug with hidemenu property
+Fixed bug with template property
+German translation is complete
+
+NewsPublisher 1.2.0-rc1
+----------------------
+Fixed bug with user-supplied CSS file
+Updated DatePicker to V5
+Better International dates (thanks to mschlegel)
+Fixed bug with forward to new page
+Updated Translations
+Revised Edit button to allow multiple buttons on a page (thanks to mschlegel)
+Better handling of presubmit errors - no form shown
+
+NewsPublisher 1.1.1-pl
+----------------------
+Fixed bug with specifying template
+Fixed bug with missing context_key
+
+NewsPublisher 1.1.0-pl
+--------------------
+Fixed bug with deprecated isFrontend() call
+Fixed bug with specifying no CSS file
+
+NewsPublisher 1.0.8
+-------------------
+Added makeUrl() code back in for proper redirection
+Fixed bug with cancelid orthography
+
+NewsPublisher 1.0.7
+-------------------
+Fixed bug with phantom checkbox
+Handle @ binding TVs
+Handle dropdown TVs
+Fixed bug with == TVs
+
+
+NewsPublisher 1.0.6
+-------------------
+Fixed bug with hasimagetv and TinyMCE init
+Added hasimagetv, imagetvheight, imagetvwidth properties
+Added id prefixes to avoid CSS collisions
+Added support for Image TVs
+Fixed bug with published status
+Fixed bug with in_array() error from readonly property
+
+NewsPublisher 1.0.5
+-------------------
+Fixed bug in transport package
+Added tutorial to docs
+
+NewsPublisher 1.0.4
+-------------------
+Changed a few defaults
+Updated property descriptions
+Removed cancelbutton property
+Updated file headers
+fixed bug with unknown resource group
+
+NewsPublisher 1.0.3
+-------------------
+ - Fixed bug with numeric &template values
+
+
+NewsPublisher 1.0.2
+-----------------
+
+- Added changelog

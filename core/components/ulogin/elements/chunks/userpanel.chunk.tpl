@@ -1,0 +1,1 @@
+<div class = "userPanel"><div>[[+usr_hello]], <a href="[[+usr_profile]]">[[+modx.user.username]]</a></div><div><a href="[[+sigout_url]]">[[+sigout_msg]]</a></div></div>

@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '5a7a9a411f7a7b78806eceb0adba12b8' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"cmpgenerator","parent":0,"controller":"controllers\\/index","haslayout":1,"lang_topics":"cmpgenerator:default","assets":"","help_url":""}',
+        'guid' => 'b2782e79df63854deafff647ddf2c65a',
+        'native_key' => 1,
+        'signature' => '8e674ed821f9f55e5526aa3c6d962a84',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'cmpgenerator',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7ea44144d36e9a1be566b11d6ddf6f1a',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'c85cf487ffe58f6be6f8188669b14bee',
+  'native_key' => 'cmpgenerator',
+  'object' => '{"text":"cmpgenerator","parent":"components","action":1,"description":"cmpgenerator.desc","icon":"","menuindex":0,"params":"","handler":"","permissions":""}',
+);
